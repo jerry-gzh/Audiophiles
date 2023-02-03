@@ -1,0 +1,161 @@
+.list-cart-container{
+  margin:20px;
+  padding: 20px;
+}
+
+.user-band{
+  color: rgb(218, 218, 218);
+  background-color: rgba(0, 0, 0, 0.706);
+  display: flex;
+  height: auto;
+
+  h1{
+    margin: auto;
+    padding:5px 15px;
+    font-size: 1.2rem;
+    text-align: left;
+    width: 90%;
+    font-family: 'Lato', 'Gill Sans MT', Calibri;
+    font-weight:lighter;
+  }
+
+  button{
+    width: 10%;
+    letter-spacing: 1px;
+
+    &:hover{
+      color: #e9e6e6;
+      font-weight:bold;
+    }
+  }
+}
+
+.cart-item-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+
+.cart-item-img{
+  
+  width: 120px;
+  display: flex;//3 propiedades en contenedor para centrar img
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+
+  img{
+    max-height: 132px;
+  }
+}
+
+.cart-item-info{
+  display: flex;
+  border-bottom: 2px solid #dedede;
+  width: 60%;
+  height: 150px;
+  font-family: 'Lato', 'Gill Sans MT', Calibri;
+  font-size: 3rem;
+
+  h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+.cart-item-qty{
+  width: 8%;
+  text-align: center;
+}
+
+.cart-item-name{
+  width: 75%;
+}
+
+.cart-item-subtotal{
+  width: 120px;
+  text-align: right;
+}
+
+#cart-total{
+  margin: 20px 0 20px;
+  width: calc(70% + 90px);
+  text-align: right;
+  font-family: 'Lato', 'Gill Sans MT', Calibri;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+
+.cart-finish{
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+
+  button{
+    width:200px;
+    margin-inline: 40px;
+  }
+}
+
+#cart-finish{
+  background-color: rgba(4, 91, 91, 0.885);
+}
+
+#cart-clear{
+  background-color: rgba(109, 12, 12, 0.735);
+}
+
+@media only screen and (max-width: 768px) {
+  .user-band{
+    h1{
+      width: 90%;
+      padding:5px 8px;
+    }
+
+    button{
+      width: auto;
+      padding:5px 8px;
+    }
+  }
+
+  .list-cart-container{
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .cart-item-card{
+    width: 100%;
+  }
+
+  .cart-item-img{
+    width: 100px;
+    margin-right: 5px;
+  }
+
+  .cart-item-info{
+    width: 68%;
+    h2{
+      font-size: 1.2rem;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+  }
+
+  .cart-item-qty{
+    width: 50px;
+  }
+
+  #cart-total{
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+  }
+
+  .cart-finish{
+    margin-top: 20px;
+  }
+}

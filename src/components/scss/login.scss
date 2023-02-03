@@ -1,0 +1,56 @@
+.form-wrap{
+  width: 35%;
+  display: grid;
+  margin: 25vh 32.5% 0;
+  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 40px;
+  border: 1.5px solid #858383;
+  border-radius: 10px;
+  padding:25px 2%;
+}
+
+input{
+  padding: 1px 20px;
+  font-size: 1.2rem;
+  border: 1.5px solid #CCCCCC;
+}
+
+#btn-form{
+  border: 2px solid #CCCCCC;
+  background-color: #858383;
+  color: white;
+  border-radius: 7px;
+  width: 50%;
+  margin: 20px 25% 0px;
+  
+}
+
+#error{
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgba(255, 0, 0, 0.184);
+}
+
+#link-user{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.3rem;
+  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  a{
+    text-decoration: none;
+    color: #2e2e2e;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .form-wrap{
+    width: 80%;
+    display: grid;
+    margin: 25vh 10% 0;
+
+  }
+}

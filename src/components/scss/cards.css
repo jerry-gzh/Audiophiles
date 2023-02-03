@@ -1,0 +1,15 @@
+.card{
+  height: 800vh;
+  margin: 1rem 0.5rem;
+  text-align: center;
+}
+
+.card-img-top{
+  height: 480px;
+  object-fit: scale-down;
+  padding: 2vh 2vh 0 2vh;
+}
+
+.container {
+  margin: 20px;
+}
